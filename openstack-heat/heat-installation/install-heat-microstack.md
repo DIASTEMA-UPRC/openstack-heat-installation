@@ -1,8 +1,8 @@
 # Install Heat Service in MicroStack - OpenStack
 
-This .md file is made in a time that Heat is not one of the services that are implemented in the MicroStack version of OpenStack [[1]](https://github.com/karamolegkos/Diastema/blob/main/diastema/openstack-heat/heat-installation/install-heat-microstack.md#references). This is also a on the wishlist for the MicroStack project, but it is not yet in on-progress phase [[2]](https://github.com/karamolegkos/Diastema/blob/main/diastema/openstack-heat/heat-installation/install-heat-microstack.md#references).
+This .md file is made in a time that Heat is not one of the services that are implemented in the MicroStack version of OpenStack [[1]](https://github.com/DIASTEMA-UPRC/openstack-heat-installation/blob/main/openstack-heat/heat-installation/install-heat-microstack.md#references). This is also a on the wishlist for the MicroStack project, but it is not yet in on-progress phase [[2]](https://github.com/DIASTEMA-UPRC/openstack-heat-installation/blob/main/openstack-heat/heat-installation/install-heat-microstack.md#references).
 
-This .md file will show how to install the Heat Services in the MicroStack project. This guide is for the ubuntu OS. To install MicroStack use the guide here [[1]](https://github.com/karamolegkos/Diastema/blob/main/diastema/openstack-heat/heat-installation/install-heat-microstack.md#references).
+This .md file will show how to install the Heat Services in the MicroStack project. This guide is for the ubuntu OS. To install MicroStack use the guide here [[1]](https://github.com/DIASTEMA-UPRC/openstack-heat-installation/blob/main/openstack-heat/heat-installation/install-heat-microstack.md#references).
 
 # Log in your MicroStack MySQL DB 
 Go to the MySQL database made by your MicroStack project
@@ -192,7 +192,7 @@ openstack stack list
 ```
 
 # Documentation used
-[[3]](https://github.com/karamolegkos/Diastema/blob/main/diastema/openstack-heat/heat-installation/install-heat-microstack.md#references)
+[[3]](https://github.com/DIASTEMA-UPRC/openstack-heat-installation/blob/main/openstack-heat/heat-installation/install-heat-microstack.md#references)
 
 # References
 

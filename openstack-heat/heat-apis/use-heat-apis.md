@@ -1,12 +1,12 @@
 # Examples on using the Heat REST APIs
-This guide will analyze how to contact with the Heat APIs [[1]](https://github.com/karamolegkos/Diastema/blob/main/diastema/openstack-heat/heat-apis/use-heat-apis.md#references) using the OpenStack authentication.
+This guide will analyze how to contact with the Heat APIs [[1]](https://github.com/DIASTEMA-UPRC/openstack-heat-installation/blob/main/openstack-heat/heat-apis/use-heat-apis.md#references) using the OpenStack authentication.
 
 I made this guide using MicroStack but the following should work on all versions of OpenStack.
 
-The examples below will be using the Postman API Platform [[2]](https://github.com/karamolegkos/Diastema/blob/main/diastema/openstack-heat/heat-apis/use-heat-apis.md#references).
+The examples below will be using the Postman API Platform [[2]](https://github.com/DIASTEMA-UPRC/openstack-heat-installation/blob/main/openstack-heat/heat-apis/use-heat-apis.md#references).
 
 # Authentication
-To use the API Server we need first to authenticate using the OpenStack Keystone Service. For this, we need to follow the Authentication and API request workflow [[3]](https://github.com/karamolegkos/Diastema/blob/main/diastema/openstack-heat/heat-apis/use-heat-apis.md#references).
+To use the API Server we need first to authenticate using the OpenStack Keystone Service. For this, we need to follow the Authentication and API request workflow [[3]](https://github.com/DIASTEMA-UPRC/openstack-heat-installation/blob/main/openstack-heat/heat-apis/use-heat-apis.md#references).
 
 From now on remember the following:
 ```
@@ -77,12 +77,12 @@ Now send the call, it will return you the stacks of your project.
 - Make a Test stack call
 In the Heat APIs you can give a JSON Heat template and make a stack right away!
 
-The following values can be found through your OpenStack Horizon Dashboard [[4]](https://github.com/karamolegkos/Diastema/blob/main/diastema/openstack-heat/heat-apis/use-heat-apis.md#references).
+The following values can be found through your OpenStack Horizon Dashboard [[4]](https://github.com/DIASTEMA-UPRC/openstack-heat-installation/blob/main/openstack-heat/heat-apis/use-heat-apis.md#references).
 ```
 <ssh-key> = The key for your image (only the name of it)
 <network-id> = The id of the network that you want your image to be launched on.
 ```
-The call that you want, must be the following, based on the OpenStack Heat API documentation [[1]](https://github.com/karamolegkos/Diastema/blob/main/diastema/openstack-heat/heat-apis/use-heat-apis.md#references).
+The call that you want, must be the following, based on the OpenStack Heat API documentation [[1]](https://github.com/DIASTEMA-UPRC/openstack-heat-installation/blob/main/openstack-heat/heat-apis/use-heat-apis.md#references).
 ```
 Method: POST
 URL: http://<ip>:8004/v1/<project_id>/stacks
@@ -129,7 +129,7 @@ The body of the call, needs to be like this:
 }
 ```
 Now send the call. It will make your stack inside your project.
-Then, you can list it with the Rest API shown in the [Make a Heat test call](https://github.com/karamolegkos/Diastema/blob/main/diastema/openstack-heat/heat-apis/use-heat-apis.md#make-a-heat-test-call) section.
+Then, you can list it with the Rest API shown in the [Make a Heat test call](https://github.com/DIASTEMA-UPRC/openstack-heat-installation/blob/main/openstack-heat/heat-apis/use-heat-apis.md#references) section.
 
 You can also view your stack with the Command Line Interface (CLI) commands or throuth the OpenStack Horizon dashboard.
 
